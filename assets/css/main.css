@@ -251,10 +251,10 @@ body > * {
 
 @media screen and (max-width: 360px) {
   body {
-    padding: 1.25em 1.25em 1.25em 1.25em;
+    padding: 5em 1.25em 1.25em 1.25em;
   }
 }
-/* made a change from 5em to 1.25em for padding0 */
+
 
 /* BG */
 
@@ -597,10 +597,10 @@ article.special {
 
 header p {
   color: rgba(255, 255, 255, 0.5);
-  /* position: relative; */
-  display: flex;
+  position: relative; 
+  /* display: flex;
   align-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   margin: 0 0 1.5em 0;
 }
 
@@ -701,6 +701,17 @@ ul {
 ul li {
   padding-left: 0.5em;
 }
+
+/* content-text */
+
+.content-text p{
+  font-size: 1.5em;
+ 
+  @media screen {max-width: 300px;
+    font-size: 1em;
+  }
+}
+
 
 /* Icons */
 
