@@ -251,9 +251,10 @@ body > * {
 
 @media screen and (max-width: 360px) {
   body {
-    padding: 5em 1.25em 1.25em 1.25em;
+    padding: 1.25em 1.25em 1.25em 1.25em;
   }
 }
+/* made a change from 5em to 1.25em for padding0 */
 
 /* BG */
 
@@ -596,7 +597,10 @@ article.special {
 
 header p {
   color: rgba(255, 255, 255, 0.5);
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
   margin: 0 0 1.5em 0;
 }
 
