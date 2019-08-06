@@ -691,7 +691,7 @@ ol li {
 ul {
   list-style: disc;
   margin: 0 0 2em 0;
-  padding-left: 1em;
+  padding-left: 2em;
 }
 
 ul li {
@@ -703,7 +703,8 @@ ul li {
 ul.icons {
   cursor: default;
   list-style: none;
-  padding-left: 0;
+  padding-left: 7rem;
+  
 }
 
 ul.icons li {
