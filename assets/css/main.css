@@ -706,7 +706,6 @@ ul li {
 
 .content-text p{
   font-size: 1.5em;
- 
   @media screen {max-width: 300px;
     font-size: 1em;
   }
@@ -1206,7 +1205,7 @@ button:disabled,
   }
 
   #header p {
-	font-size: 1em;
+	font-size: 2em;
 	margin-left: 0em;
 	padding-left: 0em;
   }
